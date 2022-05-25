@@ -1600,14 +1600,16 @@ break
                 hisoka.sendMessage(m.chat, buttonMessage, { quoted: m })
             }
             break
-	        case 'instagram': case 'ig': case 'igdl': {
+	        case 'instagram': case 'ig': case 'igdl':
+                m.reply('sedang dalam perbaikan') 
+                /*{
                 if (!text) throw 'No Query Url!'
                 m.reply(mess.wait)
                 if (/(?:\/p\/|\/reel\/|\/tv\/)([^\s&]+)/.test(isUrl(text)[0])) {
                     let anu = await fetchJson(`https://erdwpe-api.herokuapp.com/downloader/igdl?link=${text}`)
                     for (let media of anu.data.medias.url) hisoka.sendFileUrl(m.chat, media, `Download Url Instagram From ${isUrl(text)[0]}`, m)
                 }
-            }
+            }*/
             break
         
 	        case 'twitdl': case 'twitter': {
@@ -2171,8 +2173,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
 │
 │⭔ ${prefix}attp
 │⭔ ${prefix}ttp
-│⭔ ${prefix}toimage
-│⭔ ${prefix}removebg
+│⭔ ${prefix}toimg
 │⭔ ${prefix}sticker
 │⭔ ${prefix}emojimix
 │⭔ ${prefix}emojimix2

@@ -15,7 +15,7 @@ global.APIs = {
 
 // Other
 global.owner = ['6281392641570']
-global.premium = ['6288292024190']
+global.premium = ['6281392641570']
 global.packname = 'Erdwpe Bot'
 global.author = 'erdwpe.com'
 global.sessionName = 'erdwpe'
